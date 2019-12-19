@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <TextView
+        style="@style/TextAppearance.MaterialComponents.Headline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        style="@style/TextAppearance.MaterialComponents.Headline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_subtitle"
+        android:textColor="@android:color/white" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="64dp" />
+
+    <ProgressBar
+        android:layout_width="64dp"
+        android:layout_height="64dp" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="16dp" />
+
+    <TextView
+        style="@style/TextAppearance.MaterialComponents.Body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Obtaining the AllSpark"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

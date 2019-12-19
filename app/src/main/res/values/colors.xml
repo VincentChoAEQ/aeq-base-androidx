@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#36393f</color>
+    <color name="colorPrimaryDark">#2b2e31</color>
+    <color name="colorAccent">#8c8c8c</color>
+
+    <color name="white">#ffffff</color>
+    <color name="button_grey">#e4e6e6</color>
+    <color name="blue_button">#dcf1ff</color>
+    <color name="blue_button_stroke">#b2d2e4</color>
+    <color name="squash">#f7a714</color>
+    <color name="black">#222527</color>
+    <color name="grey_light">#8c8c8c</color>
+    <color name="nice_blue">#1777ae</color>
+
+    <!-- Transformer -->
+    <color name="background">#2b2e31</color>
+    <color name="text">#FFF</color>
+
+    <color name="autobot_light">#ae4c4c</color>
+    <color name="autobot">#fd0000</color>
+    <color name="autobot_dark">#ca0000</color>
+
+    <color name="decepticon_light">#695d91</color>
+    <color name="decepticon">#443576</color>
+    <color name="decepticon_dark">#362a5e</color>
+
+    <color name="black_20">#33000000</color>
+    <color name="white_20">#33FFFFFF</color>
+    <color name="white_80">#CCFFFFFF</color>
+
+
+</resources>

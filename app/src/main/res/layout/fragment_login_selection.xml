@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".login.LoginSelectionActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="56dp"
+            android:paddingRight="56dp"
+            android:background="@color/white">
+
+            <ImageView
+                android:layout_width="230dp"
+                android:layout_height="230dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                app:srcCompat="@drawable/ic_logo" />
+
+            <Button
+                android:id="@+id/buttonEmailSignIn"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:text="@string/label_email_signin"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <Button
+                android:id="@+id/buttonGoogleSignIn"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:text="@string/label_google_signin"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            />
+
+    </RelativeLayout>
+</layout>

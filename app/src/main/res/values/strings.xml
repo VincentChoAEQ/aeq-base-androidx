@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">aeq-base-app</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Dev</string>
+    <string name="nav_header_subtitle">android.dev@aequilibrium.ca</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_camera">Camera</string>
+    <string name="menu_transformer">Transformer</string>
+    <string name="menu_notification">Notification</string>
+    <string name="menu_map">Google Map</string>
+    <string name="menu_pay">Google Pay</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_take_photo">Take a photo</string>
+    <string name="label_take_photo">Take</string>
+    <string name="label_retake_photo">Retake</string>
+    <string name="label_keep_photo">Keep</string>
+    <string name="label_review_picture">Review picture</string>
+    <string name="label_cancel">Cancel</string>
+
+    <string name="label_email_signin">Sign in with email</string>
+    <string name="label_google_signin">Sign in with Google</string>
+    <string name="label_email">email</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_new_account">Sign up</string>
+    <string name="action_forgot_passwd">Forgot Password?</string>
+
+    <string name="server_client_id">1010918537790-22i1q5sn698q0otpvj6mog194s7r9i7v.apps.googleusercontent.com</string>
+    <string name="url_resetpassword">https://aequilibrium.ca</string>
+    <string name="url_signup">https://aequilibrium.ca</string>
+
+    <string name="preference_category_general">General settings</string>
+    <string name="preference_key_theme">light_theme</string>
+    <string name="preference_title_theme">Enable light theme?</string>
+    <string name="preference_category_help">Help</string>
+    <string name="preference_key_feedback">feedback</string>
+    <string name="preference_title_feedback">Send us feedback</string>
+    <string name="preference_summary_feedback">Report technical issues or suggest new features</string>
+
+    <string name="err_fail_to_send_resolution">Failed to send resolution.</string>
+    <string name="err_fail_to_get_credential">Failed to get credential.</string>
+    <string name="err_fail_to_save">Failed to save credential</string>
+    <string name="err_fail_to_signin">Failed to signin</string>
+    <string name="notify_succeed_to_save">Succeed to save credential</string>
+    <string name="notify_succeed_to_signin">Succeed to signin</string>
+    <string name="notify_enter_email">Please enter email.</string>
+    <string name="notify_enter_password">Please enter password.</string>
+    <string name="err_no_browser_app">No application can handle this request. Please install a web browser or check your URL.</string>
+
+
+    <!-- Messaging Service   -->
+    <string name="msg_token_fmt">messaging token: %1$s</string>
+    <string name="msg_token_fail">getInstanceId failed</string>
+    <string name="msg_channel_name">aeq-base-app</string>
+    <string name="msg_channel_description">aequilibrium base application message channel</string>
+
+    <!-- Transformer -->
+    <string name="autobots">Autobots</string>
+    <string name="decepticons">Decepticons</string>
+
+    <string name="edit">Edit</string>
+    <string name="save">Save</string>
+
+    <string name="create_transformer">Create Transformer</string>
+    <string name="view_transformer">View Transformer</string>
+    <string name="edit_transformer">Edit Transformer</string>
+
+    <string name="name_hint">Megatron</string>
+    <string name="delete">Delete</string>
+
+    <string name="start_battle">Start Battle</string>
+
+    <!-- Stats -->
+    <string name="strength">Strength</string>
+    <string name="intelligence">Intelligence</string>
+    <string name="speed">Speed</string>
+    <string name="endurance">Endurance</string>
+    <string name="rank">Rank</string>
+    <string name="courage">Courage</string>
+    <string name="firepower">Firepower</string>
+    <string name="skill">Skill</string>
+    <string name="unknown">Unknown</string>
+
+    <string name="strength_short">STR</string>
+    <string name="intelligence_short">INT</string>
+    <string name="speed_short">SPD</string>
+    <string name="endurance_short">END</string>
+    <string name="rank_short">RNK</string>
+    <string name="courage_short">CRG</string>
+    <string name="firepower_short">FPR</string>
+    <string name="skill_short">SKL</string>
+    <string name="unknown_short">\???</string>
+
+    <string name="battle">Battle</string>
+    <string name="vs">vs</string>
+    <string name="app_subtitle">War for Cybertron</string>
+    <string name="battle_start">BEGIN BATTLE</string>
+    <string name="battle_mass_extinction">MASS EXTINCTION</string>
+    <string name="battle_end">BATTLE END</string>
+    <string name="battle_draw">DRAW</string>
+    <string name="battle_victory_autobots">AUTOBOTS WIN</string>
+    <string name="battle_victory_decepticons">DECEPTICONS WIN</string>
+    <string name="battle_empty">You look around, the battlefield is empty. Did you get the wrong address?\n\nMaybe we should come back when we have two teams to fight.</string>
+
+</resources>

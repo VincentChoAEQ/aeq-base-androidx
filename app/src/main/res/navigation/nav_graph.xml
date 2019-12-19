@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="ca.aequilibrium.base.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/activity_main" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_camera"
+            app:destination="@id/nav_camera" />
+
+        <action
+            android:id="@+id/action_nav_home_to_settingsFragment"
+            app:destination="@id/settingsFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_camera"
+        android:name="ca.aequilibrium.base.ui.camera.CameraFragment"
+        android:label="@string/menu_camera"
+        tools:layout="@layout/activity_camera" />
+
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="ca.aequilibrium.base.ui.map.MapsFragment"
+        android:label="MapsFragment"
+        tools:layout="@layout/fragment_maps"/>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="ca.aequilibrium.base.ui.setting.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@xml/preference_main">
+        <deepLink
+            android:id="@+id/deepLink2"
+            android:autoVerify="true"
+            app:uri="baseapp://navgraph/settings" />
+    </fragment>
+
+</navigation>
